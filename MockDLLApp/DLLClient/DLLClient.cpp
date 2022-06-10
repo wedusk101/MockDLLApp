@@ -13,4 +13,8 @@ int main()
     std::cout << "The product is: " << result << std::endl;
     result = mockdll::getSum(a, b);
     std::cout << "The sum is: " << result << std::endl;
+    std::cout << "Press any key followed by the return key to continue . . ." << std::endl;
+    std::cin.clear();
+    std::cin.ignore();
+    std::cin.get();
 }

@@ -98,7 +98,7 @@
       <AdditionalDependencies>MockDLL.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(SolutionDir)MockDLL\$(Configuration)\MockDLL.dll $(SolutionDir)DLLClient\$(Configuration)</Command>
+      <Command>xcopy /Y $(SolutionDir)MockDLL\$(Configuration)\MockDLL.dll $(SolutionDir)DLLClient\$(Configuration)</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
