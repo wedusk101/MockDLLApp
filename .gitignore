@@ -3,3 +3,10 @@ MockDLLApp/.vs
 MockDLLApp/DLLClient/Debug
 MockDLLApp/MockDLL/Debug
 
+MockDLLApp/DLLClient/x64/Debug/
+MockDLLApp/DLLClient/x64/Release/
+
+MockDLLApp/MockDLL/x64/Debug
+MockDLLApp/MockDLL/x64/Release
+
+MockDLLApp/x64
