@@ -14,11 +14,11 @@ namespace mockdll
 
 	bool PrimeGenerator::isMersenne(size_t m) const
 	{
-		size_t var = 0, exp = 1;
+		size_t var = 0, exp = 1, base = 2;
 
 		while (var <= (m + 1)) // M = (2^exp) - 1 => 2<<exp = (M + 1)
 		{
-			var = 2 << exp;
+			var = base << exp;
 			if (var == (m + 1)) // follows from the definition of a Mersenne prime
 				return true;
 
